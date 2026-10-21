@@ -30,7 +30,7 @@ class GaleriFotoPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Galeri Foto'),
         backgroundColor: Colors.blue,
-        foregroundColor: Colors.black,
+        foregroundColor: Colors.white,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
