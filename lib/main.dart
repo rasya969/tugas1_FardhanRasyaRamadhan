@@ -41,6 +41,16 @@ class GaleriFotoPage extends StatelessWidget {
             height: 220,
             fit: BoxFit.cover,
           ),
+          const SizedBox(height: 16),
+          const Center(
+            child: Text(
+              'Jalan di Barcelona',
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
         ],
       ),
     );
