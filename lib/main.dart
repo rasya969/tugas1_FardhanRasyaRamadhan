@@ -51,6 +51,34 @@ class GaleriFotoPage extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(height: 12),
+          const Divider(height: 1, thickness: 1),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+            child: Row(
+              children: [
+                Icon(Icons.location_on, color: Colors.red, size: 18),
+                SizedBox(width: 8),
+                Text(
+                  'Lokasi: Barcelona, Spanyol',
+                  style: TextStyle(fontSize: 12, color: Colors.black87),
+                ),
+              ],
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 4.0),
+            child: Row(
+              children: [
+                Icon(Icons.calendar_month, color: Colors.blue, size: 18),
+                SizedBox(width: 8),
+                Text(
+                  'Publikasi: 13 Agustus 2013',
+                  style: TextStyle(fontSize: 12, color: Colors.black87),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
