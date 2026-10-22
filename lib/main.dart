@@ -36,7 +36,7 @@ class GaleriFotoPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.network(
-            'https://picsum.photos/id/7/300/200',
+            'https://picsum.photos/id/88/300/200',
             width: double.infinity,
             height: 220,
             fit: BoxFit.cover,
